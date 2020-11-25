@@ -1,0 +1,8 @@
+ npm i vue-simple-alert 
+ e imposrtali nel main. js metti import VueSimpleAlert from "vue-simple-alert";
+                                      //Vue.use(VueSimpleAlert);
+
+
+ATTENZIONE NEL app.vue 
+rimmettilo come era ( quello commentato)  io uso questo altrimenti non va 
+      this.axios.defaults.baseURL = process.env.NODE_ENV == "development" ? "http://localhost:5002/apibe/" : "http://localhost:5002/apibe/";
